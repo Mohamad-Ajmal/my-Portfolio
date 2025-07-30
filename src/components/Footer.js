@@ -113,9 +113,7 @@ const Footer = () => {
         >
           <div className="footer-bottom-content">
             <p>
-              © {currentYear} AI Studio. Made with{" "}
-              <Heart size={16} className="heart-icon" />
-              All rights reserved.
+              © {currentYear} AI Studio. All rights reserved.
             </p>
             <motion.button
               onClick={scrollToTop}
