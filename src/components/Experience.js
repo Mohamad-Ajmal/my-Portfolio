@@ -13,7 +13,7 @@ const Experience = () => {
     {
       id: 1,
       title: "Full Stack Developer",
-      company: "Kardan International School",
+      company: "Kardan Schools",
       location: "Kabul, Afghanistan",
       period: "2023 - Present",
       description: [
@@ -51,6 +51,19 @@ const Experience = () => {
         "Be responsible for maintaining, expanding, and scaling our site",
         "Stay plugged into emerging technologies/industry trends and apply them into operations and activities",
         
+      ],
+    },
+    {
+      id: 3,
+      title: "Website and Mobile Application Developer (Remote)",
+      company: "FemsTech Worldwide",
+      location: "Munich, Germany",
+      period: "2024 - Present",
+      description: [
+        "Development: Design, develop, and deploy website and mobile application features and functionalities. ",
+        "Maintenance: Regularly update content, fix bugs, and ensure platforms are secure and operational. ",
+        "Enchantments: Implement new features and improvements based on user feedback and technological advancements. ",
+        "Integration: Ensure seamless integration between website, mobile applications, and other IT systems.",
       ],
     },
   ];
