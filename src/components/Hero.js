@@ -76,14 +76,15 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="hero-buttons"
           >
-            <motion.button
+            <motion.a
+            href="/Ajmal Ibrahimkhail.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn btn-primary"
             >
               <Download size={20} />
               Download CV
-            </motion.button>
+            </motion.a>
 
             <Link to="contact" smooth={true} duration={500}>
               <motion.button
